@@ -1,0 +1,25 @@
+{
+  "name": "mj-perf-test",
+  "version": "1.0.0",
+  "description": "Test package to test mathjax node startup performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/physikerwelt/mj-perf-test"
+  },
+  "keywords": [
+    "MathJax",
+    "MathJaxNode",
+    "MathML"
+  ],
+  "author": "Moritz Schubpotz",
+  "license": "ISC",
+  "dependencies": {
+    "mathjax-node": "^1.1.0",
+    "mathoid-mathjax-node": "^0.6.6",
+    "microtime": "^2.1.6"
+  }
+}
